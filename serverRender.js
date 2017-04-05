@@ -33,7 +33,7 @@ const getInitialData = (url, params, apiData) => {
     return {
       currentPartyId: apiData.party_id,
       parties: {
-        [apiData.id]: apiData
+        [apiData.party_id]: apiData
       }
     }
   } else if (url === "/pokemon") {

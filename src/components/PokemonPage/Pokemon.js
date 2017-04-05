@@ -1,6 +1,12 @@
 import React, { Component, PropTypes } from 'react';
 
 class Pokemon extends Component {
+  static propTypes = {
+    id: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired,
+    types: PropTypes.array.isRequired
+  };
+
   render() {
     return (
       <div className="pokemon">
@@ -11,12 +17,6 @@ class Pokemon extends Component {
       </div>
     );
   }
-}
-
-Pokemon.propTypes = {
-  id: PropTypes.number.isRequired,
-  name: PropTypes.string.isRequired,
-  types: PropTypes.array.isRequired
 }
 
 export default Pokemon;

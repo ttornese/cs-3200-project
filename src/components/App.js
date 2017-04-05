@@ -1,11 +1,10 @@
 import React from 'react';
 import Header from './Header';
-import ContestList from './ContestList';
-import Contest from './Contest';
 import * as api from '../api';
 import PartiesPage from './PartiesPage/PartiesPage';
-import Pokemon from './Pokemon';
-import PokemonList from './PokemonList';
+import PartyPage from './PartyPage/PartyPage';
+import PokemonListPage from './PokemonListPage/PokemonListPage';
+import PokemonPage from './PokemonPage/PokemonPage';
 
 const pushState = (obj, url) =>
   window.history.pushState(obj, '', url);
@@ -19,6 +18,7 @@ class App extends React.Component {
     initialData: React.PropTypes.object.isRequired,
     pokemon: React.PropTypes.object
   };
+
   state = this.props.initialData;
   componentDidMount() {
     onPopState((event) => {
@@ -45,9 +45,16 @@ class App extends React.Component {
       });
     });
   };
+
   currentPokemon() {
     return this.state.pokemon[this.state.currentPokemonId];
   }
+
+  currentParty() {
+    console.log(this.state.parties);
+    return this.state.parties[`${this.state.currentPartyId}`];
+  }
+
   pageHeader() {
     if (this.state.currentContestId) {
       return this.currentContest().contestName;
@@ -55,26 +62,28 @@ class App extends React.Component {
 
     return this.state.pokemon['1']['name'];
   }
+
   currentContent() {
     if (this.state.currentPokemonId) {
-      return <Pokemon
-               {...this.currentPokemon()} />;
+      return <PokemonPage pokemon={this.currentPokemon()} />;
     } else if (this.state.pokemon) {
-      return <PokemonList
-              onPokemonClick={this.fetchPokemon}
-              pokemon={this.state.pokemon} />;
+      return (
+        <PokemonListPage
+          onClickPokemon={this.fetchPokemon}
+          pokemon={this.state.pokemon}
+        />
+      );
     } else if (this.state.currentPartyId) {
-      return <h1>{this.state.currentPartyId}</h1>;
+      return <PartyPage party={this.currentParty()} />;
     }
 
-    return <PartiesPage />;
+    return <PartiesPage parties={this.state.parties} />;
   }
   render() {
     return (
       <div className="App">
         <Header message="Pokemon" />
         {this.currentContent()}
-        {/*<PokemonList pokemon={this.state.pokemon} />*/}
       </div>
     );
   }
