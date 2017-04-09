@@ -20,6 +20,7 @@ class App extends React.Component {
   };
 
   state = this.props.initialData;
+
   componentDidMount() {
     onPopState((event) => {
       this.setState({
@@ -27,9 +28,11 @@ class App extends React.Component {
       });
     });
   }
+
   componentWillUnmount() {
     onPopState(null);
   }
+
   fetchPokemon = (pokemonId) => {
     pushState(
       { currentPokemonId: pokemonId },
@@ -41,6 +44,22 @@ class App extends React.Component {
         pokemon: {
           ...this.state.pokemon,
           [pokemon.id]: pokemon
+        }
+      });
+    });
+  };
+
+  fetchParty = (partyId) => {
+    pushState(
+      { currentPartyId: partyId },
+      `/party/${partyId}`
+    );
+    api.fetchParty(partyId).then(party => {
+      this.setState({
+        currentPartyId: party.party_id,
+        parties: {
+          ...this.state.parties,
+          [party.party_id]: party
         }
       });
     });
@@ -77,8 +96,14 @@ class App extends React.Component {
       return <PartyPage party={this.currentParty()} />;
     }
 
-    return <PartiesPage parties={this.state.parties} />;
+    return (
+      <PartiesPage
+        onClickParty={this.fetchParty}
+        parties={this.state.parties}
+      />
+    );
   }
+
   render() {
     return (
       <div className="App">

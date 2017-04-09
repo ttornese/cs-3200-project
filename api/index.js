@@ -57,4 +57,12 @@ router.get('/pokemon/:pokemonId', (req, res) => {
     .catch(console.error)
 });
 
+
+router.get('/ability/:abilityName', (req, res) => {
+  mdb.collection('abilities')
+    .findOne({ ability_name: req.params.abilityName })
+    .then(ability => res.send(ability))
+    .catch(console.error)
+});
+
 export default router;

@@ -8,7 +8,15 @@ class PartiesPage extends Component {
   render() {
     return (
       <div className="parties-page">
-        <h1>Parties page</h1>
+        {
+          Object.keys(this.props.parties).map(party => {
+            return (
+              <h1 key={this.props.parties[party].party_id}>
+                {this.props.parties[party].party_id}
+              </h1>
+            )
+          })
+        }
       </div>
     );
   }

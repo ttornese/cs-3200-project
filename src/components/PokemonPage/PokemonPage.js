@@ -9,7 +9,6 @@ class PokemonPage extends Component {
   render() {
     return (
       <div className="pokemon-page">
-        <h1>Pokemon Page</h1>
         <Pokemon {...this.props.pokemon} />
       </div>
     );

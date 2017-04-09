@@ -1,3 +1,5 @@
+@import "./Pokemon.scss";
+
 .ContestPreview {
   margin: 1em;
   border: 1px solid #ccc;
@@ -21,4 +23,9 @@
 .home-link {
   margin-top: 1em;
   color: #0000ee;
+}
+
+.pokemon-page {
+  display: flex;
+  justify-content: center;
 }
