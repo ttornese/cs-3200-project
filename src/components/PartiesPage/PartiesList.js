@@ -4,6 +4,7 @@ import PartyPreview from './PartyPreview';
 
 class PartiesList extends Component {
   static propTypes = {
+    onClickDeleteParty: PropTypes.func.isRequired,
     onClickParty: PropTypes.func.isRequired,
     parties: PropTypes.object.isRequired
   };
@@ -16,6 +17,7 @@ class PartiesList extends Component {
             return (
               <PartyPreview
                 key={partyId}
+                onClickDeleteParty={this.props.onClickDeleteParty}
                 onClickParty={this.props.onClickParty}
                 party={this.props.parties[partyId]}
               />

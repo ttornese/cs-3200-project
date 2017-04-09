@@ -104,6 +104,7 @@ class App extends React.Component {
     return (
       <PartiesPage
         onClickCreateParty={this.createParty.bind(this)}
+        onClickDeleteParty={this.deleteParty.bind(this)}
         onClickParty={this.fetchParty.bind(this)}
         parties={this.state.parties}
       />
@@ -111,7 +112,16 @@ class App extends React.Component {
   }
 
   createParty() {
-    api.createParty(Object.keys(this.state.parties).length + 1).then(resp => {
+    let partyNumber = 1;
+    if (Object.keys(this.state.parties).length > 0) {
+      partyNumber = Math.max.apply(
+        null,
+        Object.keys(this.state.parties).map(x => {
+          return x;
+        })
+      ) + 1;
+    }
+    api.createParty(partyNumber).then(resp => {
       this.setState({
         parties: {
           ...this.state.parties,
@@ -120,6 +130,15 @@ class App extends React.Component {
       });
     });
   }
+
+  deleteParty = (partyId) => {
+    api.deleteParty(partyId).then(parties => {
+      this.setState({
+        parties
+      });
+    });
+  };
+
 
   addPokemonToParty(partyId, pokemonName) {
     api.addPokemonToParty(partyId, pokemonName).then(resp => {

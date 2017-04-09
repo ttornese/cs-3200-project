@@ -5,6 +5,7 @@ import PartiesList from './PartiesList';
 class PartiesPage extends Component {
   static propTypes = {
     onClickCreateParty: PropTypes.func.isRequired,
+    onClickDeleteParty: PropTypes.func.isRequired,
     onClickParty: PropTypes.func.isRequired,
     parties: PropTypes.object.isRequired
   };
@@ -20,6 +21,7 @@ class PartiesPage extends Component {
           Parties List
         </h2>
         <PartiesList
+          onClickDeleteParty={this.props.onClickDeleteParty}
           onClickParty={this.props.onClickParty}
           parties={this.props.parties}
         />

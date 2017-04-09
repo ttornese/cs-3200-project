@@ -1,10 +1,13 @@
 @import "./Ability.scss";
 @import "./Header.scss";
+@import "./PartiesList.scss";
 @import "./PartiesPage.scss";
+@import "./PartyPreview.scss";
 @import "./Pokemon.scss";
 @import "./PokemonPage.scss";
 
 body.container {
+  background-color: #fff0f7;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -12,4 +15,15 @@ body.container {
 
 h2 {
   margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+button {
+  background-color: #ff96ca;
+  border: 1.5px solid #cc5490;
+  border-radius: 5px;
+  color: white;
 }

@@ -74,16 +74,32 @@ router.post('/parties', (req, res) => {
 
 router.post('/parties/:partyId', (req, res) => {
   const partyId = req.body.partyId;
-  const pokemonName = req.body.pokemonName;
 
-  mdb.collection('parties').updateOne(
-    { party_id: partyId },
-    { $push: { pokemon: pokemonName } }
-  ).then(result => {
-    mdb.collection('parties').findOne({party_id: partyId}).then(doc => {
-      res.send({party_id: partyId, pokemon: doc.pokemon});
+  if (Object.keys(req.body).length == 2) {
+    const pokemonName = req.body.pokemonName;
+
+    mdb.collection('parties').updateOne(
+      { party_id: partyId },
+      { $push: { pokemon: pokemonName } }
+    ).then(result => {
+      mdb.collection('parties').findOne({party_id: partyId}).then(doc => {
+        res.send({party_id: partyId, pokemon: doc.pokemon});
+      });
     });
-  });
+  } else {
+    mdb.collection('parties').deleteOne(
+      { party_id: partyId }
+    ).then(result => {
+      mdb.collection('parties').find({}).toArray((err, results) => {
+        let resultObj = {};
+        for (let i = 0; i < results.length; i++) {
+          resultObj[results[i].party_id] = results[i];
+        }
+
+        res.send(resultObj);
+      });
+    });
+  }
 });
 
 export default router;

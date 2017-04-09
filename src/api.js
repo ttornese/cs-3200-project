@@ -34,3 +34,8 @@ export const addPokemonToParty = (partyId, pokemonName) => {
   return axios.post(`/api/parties/${partyId}`, { partyId, pokemonName })
     .then(resp => resp.data);
 };
+
+export const deleteParty = partyId => {
+  return axios.post(`/api/parties/${partyId}`, { partyId })
+    .then(resp => resp.data);
+};
