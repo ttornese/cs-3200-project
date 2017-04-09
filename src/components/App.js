@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Header from './Header';
 import * as api from '../api';
 import PartiesPage from './PartiesPage/PartiesPage';
@@ -15,8 +16,8 @@ const onPopState = handler => {
 
 class App extends React.Component {
   static propTypes = {
-    initialData: React.PropTypes.object.isRequired,
-    pokemon: React.PropTypes.object
+    initialData: PropTypes.object.isRequired,
+    pokemon: PropTypes.object
   };
 
   state = this.props.initialData;

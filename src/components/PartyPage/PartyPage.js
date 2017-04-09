@@ -1,8 +1,9 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class PartyPage extends Component {
   static propTypes = {
-    party: React.PropTypes.object.isRequired
+    party: PropTypes.object.isRequired
   };
 
   render() {

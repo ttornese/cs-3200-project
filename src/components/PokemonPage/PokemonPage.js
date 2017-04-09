@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Pokemon from './Pokemon';
 
 class PokemonPage extends Component {
   static propTypes = {
-    pokemon: React.PropTypes.object.isRequired
+    pokemon: PropTypes.object.isRequired
   };
 
   render() {

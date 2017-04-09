@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class PartiesList extends Component {
   static propTypes = {
-    parties: React.PropTypes.object.isRequired
+    parties: PropTypes.object.isRequired
   };
 
   render() {
