@@ -1,15 +1,13 @@
 import React from 'react';
 
-const Header = ({ message }) => {
+const Header = () => {
   return (
-    <h2 className="Header text-center">
-      {message}
-    </h2>
+    <div className="header">
+      <h2 className="header-title">
+        Pokemon Party Builder
+      </h2>
+    </div>
   );
-};
-
-Header.propTypes = {
-  message: React.PropTypes.string
 };
 
 export default Header;

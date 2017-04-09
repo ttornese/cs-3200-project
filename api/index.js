@@ -12,9 +12,9 @@ MongoClient.connect(config.mongodbUri, (err, db) => {
 
 const router = express.Router();
 
-router.get('/party', (req, res) => {
+router.get('/parties', (req, res) => {
   let parties = {};
-  mdb.collection('party').find({})
+  mdb.collection('parties').find({})
     .each((err, party) => {
       assert.equal(null, err);
 
@@ -27,9 +27,8 @@ router.get('/party', (req, res) => {
     });
 });
 
-router.get('/party/:partyId', (req, res) => {
-  console.log(req.params.partyId);
-  mdb.collection('party')
+router.get('/parties/:partyId', (req, res) => {
+  mdb.collection('parties')
     .findOne({ party_id: Number(req.params.partyId) })
     .then(party => res.send(party))
     .catch(console.error)
@@ -63,6 +62,14 @@ router.get('/ability/:abilityName', (req, res) => {
     .findOne({ ability_name: req.params.abilityName })
     .then(ability => res.send(ability))
     .catch(console.error)
+});
+
+router.post('/parties', (req, res) => {
+  const party_id = req.body.partyId;
+  mdb.collection('parties').insertOne({ party_id })
+  .then(result =>{
+    res.send({party: {party_id}})
+  });
 });
 
 export default router;

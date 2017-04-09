@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'React';
+import React, { Component, PropTypes } from 'react';
 
 class Ability extends Component {
   static propTypes = {
@@ -9,9 +9,9 @@ class Ability extends Component {
   render() {
     return (
       <div className="ability">
-        <h3 className="ability-header">
-          {this.props.ability_name}
-        </h3>
+        <h4 className="ability-header">
+          {"Ability: " + this.props.ability_name}
+        </h4>
         <p className="ability-description">
           {this.props.description}
         </p>

@@ -12,7 +12,6 @@ class Pokemon extends Component {
 
   componentDidMount() {
     api.fetchAbility(this.props.ability).then(ability => {
-      console.log(ability);
       this.setState({
         ability
       });

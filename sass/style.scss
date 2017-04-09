@@ -1,31 +1,15 @@
+@import "./Ability.scss";
+@import "./Header.scss";
+@import "./PartiesPage.scss";
 @import "./Pokemon.scss";
+@import "./PokemonPage.scss";
 
-.ContestPreview {
-  margin: 1em;
-  border: 1px solid #ccc;
-
-  .category-name {
-    border-bottom: 1px solid #ccc;
-    padding: 0.25em 0.5em;
-    font-weight: bold;
-    background-color: #eee;
-  }
-
-  .contest-name {
-    padding: 0.5em;
-  }
+body.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
-.link {
-  cursor: pointer;
-}
-
-.home-link {
-  margin-top: 1em;
-  color: #0000ee;
-}
-
-.pokemon-page {
-  display: flex;
-  justify-content: center;
+h2 {
+  margin: 0;
 }

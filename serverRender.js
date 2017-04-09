@@ -13,12 +13,12 @@ const getApiUrl = (path, params) => {
   if (pokemonIdPath.test(path)) {
     return `${config.serverUrl}/api/pokemon/${params.pokemonId}`;
   } else if (partyIdPath.test(path)) {
-    return `${config.serverUrl}/api/party/${params.partyId}`;
+    return `${config.serverUrl}/api/parties/${params.partyId}`;
   } else if (path === '/pokemon') {
     return `${config.serverUrl}/api/pokemon`;
   }
 
-  return `${config.serverUrl}/api/party`;
+  return `${config.serverUrl}/api/parties`;
 };
 
 const getInitialData = (url, params, apiData) => {

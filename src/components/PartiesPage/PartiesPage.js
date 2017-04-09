@@ -1,22 +1,30 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
+import PartiesList from './PartiesList';
 
 class PartiesPage extends Component {
   static propTypes = {
-    parties: React.PropTypes.object.isRequired
+    onClickCreateParty: PropTypes.func.isRequired,
+    onClickParty: PropTypes.func.isRequired,
+    parties: PropTypes.object.isRequired
   };
+
+  handleCreateClick() {
+    this.props.onClickCreateParty();
+  }
 
   render() {
     return (
       <div className="parties-page">
-        {
-          Object.keys(this.props.parties).map(party => {
-            return (
-              <h1 key={this.props.parties[party].party_id}>
-                {this.props.parties[party].party_id}
-              </h1>
-            )
-          })
-        }
+        <h2 className="parties-page-header">
+          Parties List
+        </h2>
+        <PartiesList parties={this.props.parties} />
+        <button
+          className="parties-page-create-button"
+          onClick={this.props.onClickCreateParty}
+        >
+          Create New Party
+        </button>
       </div>
     );
   }

@@ -52,7 +52,7 @@ class App extends React.Component {
   fetchParty = (partyId) => {
     pushState(
       { currentPartyId: partyId },
-      `/party/${partyId}`
+      `/parties/${partyId}`
     );
     api.fetchParty(partyId).then(party => {
       this.setState({
@@ -98,10 +98,26 @@ class App extends React.Component {
 
     return (
       <PartiesPage
+        onClickCreateParty={this.createParty.bind(this)}
         onClickParty={this.fetchParty}
         parties={this.state.parties}
       />
     );
+  }
+
+  createParty() {
+    api.createParty(Object.keys(this.state.parties).length + 1).then(resp => {
+      this.setState({
+        parties: {
+          ...this.state.parties,
+          [resp.party.party_id]: resp.party
+        }
+      });
+    });
+  }
+
+  handleClick() {
+    this.createParty();
   }
 
   render() {
@@ -109,6 +125,9 @@ class App extends React.Component {
       <div className="App">
         <Header message="Pokemon" />
         {this.currentContent()}
+        <div onClick={this.handleClick.bind(this)}>
+          test
+        </div>
       </div>
     );
   }
