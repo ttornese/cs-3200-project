@@ -67,8 +67,22 @@ router.get('/ability/:abilityName', (req, res) => {
 router.post('/parties', (req, res) => {
   const party_id = req.body.partyId;
   mdb.collection('parties').insertOne({ party_id })
-  .then(result =>{
-    res.send({party: {party_id}})
+    .then(result =>{
+      res.send({party: {party_id}})
+    });
+});
+
+router.post('/parties/:partyId', (req, res) => {
+  const partyId = req.body.partyId;
+  const pokemonName = req.body.pokemonName;
+
+  mdb.collection('parties').updateOne(
+    { party_id: partyId },
+    { $push: { pokemon: pokemonName } }
+  ).then(result => {
+    mdb.collection('parties').findOne({party_id: partyId}).then(doc => {
+      res.send({party_id: partyId, pokemon: doc.pokemon});
+    });
   });
 });
 

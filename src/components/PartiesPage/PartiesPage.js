@@ -19,7 +19,10 @@ class PartiesPage extends Component {
         <h2 className="parties-page-header">
           Parties List
         </h2>
-        <PartiesList parties={this.props.parties} />
+        <PartiesList
+          onClickParty={this.props.onClickParty}
+          parties={this.props.parties}
+        />
         <button
           className="parties-page-create-button"
           onClick={this.props.onClickCreateParty}

@@ -71,7 +71,6 @@ class App extends React.Component {
   }
 
   currentParty() {
-    console.log(this.state.parties);
     return this.state.parties[`${this.state.currentPartyId}`];
   }
 
@@ -94,13 +93,18 @@ class App extends React.Component {
         />
       );
     } else if (this.state.currentPartyId) {
-      return <PartyPage party={this.currentParty()} />;
+      return (
+        <PartyPage
+          onClickAddPokemon={this.addPokemonToParty.bind(this)}
+          party={this.currentParty()}
+        />
+      );
     }
 
     return (
       <PartiesPage
         onClickCreateParty={this.createParty.bind(this)}
-        onClickParty={this.fetchParty}
+        onClickParty={this.fetchParty.bind(this)}
         parties={this.state.parties}
       />
     );
@@ -117,6 +121,22 @@ class App extends React.Component {
     });
   }
 
+  addPokemonToParty(partyId, pokemonName) {
+    api.addPokemonToParty(partyId, pokemonName).then(resp => {
+      console.log(resp);
+      this.setState({
+        currentPartyId: this.state.currentPartyId,
+        parties: {
+          ...this.state.parties,
+          [resp.party_id]: {
+            party_id: resp.party_id,
+            pokemon: resp.pokemon
+          }
+        }
+      });
+    });
+  }
+
   handleClick() {
     this.createParty();
   }
@@ -126,9 +146,6 @@ class App extends React.Component {
       <div className="App">
         <Header message="Pokemon" />
         {this.currentContent()}
-        <div onClick={this.handleClick.bind(this)}>
-          test
-        </div>
       </div>
     );
   }

@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import PartyPreview from './PartyPreview';
 
 class PartiesList extends Component {
   static propTypes = {
+    onClickParty: PropTypes.func.isRequired,
     parties: PropTypes.object.isRequired
   };
 
@@ -10,12 +12,14 @@ class PartiesList extends Component {
     return (
       <div className="parties-list">
         {
-          Object.keys(this.props.parties).map(party => {
+          Object.keys(this.props.parties).map(partyId => {
             return (
-              <h1 key={this.props.parties[party].party_id}>
-                {this.props.parties[party].party_id}
-              </h1>
-            )
+              <PartyPreview
+                key={partyId}
+                onClickParty={this.props.onClickParty}
+                party={this.props.parties[partyId]}
+              />
+            );
           })
         }
       </div>

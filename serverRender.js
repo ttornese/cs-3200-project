@@ -8,7 +8,7 @@ import axios from 'axios';
 
 const getApiUrl = (path, params) => {
   let pokemonIdPath = /\/pokemon\/\d*/;
-  let partyIdPath = /\/party\/\d*/;
+  let partyIdPath = /\/parties\/\d*/;
 
   if (pokemonIdPath.test(path)) {
     return `${config.serverUrl}/api/pokemon/${params.pokemonId}`;
