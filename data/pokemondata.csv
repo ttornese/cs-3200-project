@@ -1,0 +1,818 @@
+﻿id,name,TypeI,TypeII,ability,Evolve
+1,Bulbasaur,Grass,Poison,Overgrow,
+2,Ivysaur,Grass,Poison,Overgrow,Lv. 16
+3,Venusaur,Grass,Poison,Overgrow,Lv. 32
+4,Charmander,Fire,,Blaze,
+5,Charmeleon,Fire,,Blaze,Lv. 16
+6,Charizard,Fire,Flying,Blaze,Lv. 36
+7,Squirtle,Water,,Torrent,
+8,Wartortle,Water,,Torrent,Lv. 16
+9,Blastoise,Water,,Torrent,Lv. 36
+10,Caterpie,Bug,,Shield Dust,
+11,Metapod,Bug,,Shed Skin,Lv. 7
+12,Butterfree,Bug,Flying,Compoundeyes,Lv. 10
+13,Weedle,Bug,Poison,Shield Dust,
+14,Kakuna,Bug,Poison,Shed Skin,Lv. 7
+15,Beedrill,Bug,Poison,Swarm,Lv. 10
+16,Pidgey,Normal,Flying,Keen Eye,
+17,Pidgeotto,Normal,Flying,Keen Eye,Lv. 18
+18,Pidgeot,Normal,Flying,Keen Eye,Lv. 36
+19,Rattata,Normal,,Run Away,
+20,Raticate,Normal,,Run Away,Lv. 20
+21,Spearow,Normal,Flying,Keen Eye,
+22,Fearow,Normal,Flying,Keen Eye,Lv. 20
+23,Ekans,Poison,,Intimidate,
+24,Arbok,Poison,,Intimidate,Lv. 22
+25,Pikachu,Electric,,Static,Friendship
+26,Raichu,Electric,,Static,Thunderstone
+27,Sandshrew,Ground,,Sand Veil,
+28,Sandslash,Ground,,Sand Veil,Lv. 22
+29,Nidoranâ™€,Poison,,Poison Point,
+30,Nidorina,Poison,,Poison Point,Lv. 16
+31,Nidoqueen,Poison,Ground,Poison Point,Moon Stone
+32,Nidoranâ™‚,Poison,,Poison Point,
+33,Nidorino,Poison,,Poison Point,Lv. 16
+34,Nidoking,Poison,Ground,Poison Point,Moon Stone
+35,Clefairy,Fairy,,Cute Charm,Friendship
+36,Clefable,Fairy,,Cute Charm,Moon Stone
+37,Vulpix,Fire,,Flash Fire,
+38,Ninetales,Fire,,Flash Fire,Fire Stone
+39,Jigglypuff,Normal,Fairy,Cute Charm,Friendship
+40,Wigglytuff,Normal,Fairy,Cute Charm,Moon Stone
+41,Zubat,Poison,Flying,Inner Focus,
+42,Golbat,Poison,Flying,Inner Focus,Lv. 22
+43,Oddish,Grass,Poison,Chlorophyll,
+44,Gloom,Grass,Poison,Chlorophyll,Lv. 22
+45,Vileplume,Grass,Poison,Chlorophyll,Leaf Stone
+46,Paras,Bug,Grass,Effect Spore,
+47,Parasect,Bug,Grass,Effect Spore,Lv. 24
+48,Venonat,Bug,Poison,Compoundeyes,
+49,Venomoth,Bug,Poison,Shield Dust,Lv. 31
+50,Diglett,Ground,,Sand Veil,
+51,Dugtrio,Ground,,Sand Veil,Lv. 26
+52,Meowth,Normal,,Pickup,
+53,Persian,Normal,,Limber,Lv. 28
+54,Psyduck,Water,,Damp,
+55,Golduck,Water,,Damp,Lv. 33
+56,Mankey,Fighting,,Vital Spirit,
+57,Primeape,Fighting,,Vital Spirit,Lv. 28
+58,Growlithe,Fire,,Intimidate,
+59,Arcanine,Fire,,Intimidate,Fire Stone
+60,Poliwag,Water,,Water Absorb,
+61,Poliwhirl,Water,,Water Absorb,Lv. 25
+62,Poliwrath,Water,Fighting,Water Absorb,Water Stone
+63,Abra,Psychic,,Synchronize,
+64,Kadabra,Psychic,,Synchronize,Lv. 16
+65,Alakazam,Psychic,,Synchronize,Trade
+66,Machop,Fighting,,Guts,
+67,Machoke,Fighting,,Guts,Lv. 28
+68,Machamp,Fighting,,Guts,Trade
+69,Bellsprout,Grass,Poison,Chlorophyll,
+70,Weepinbell,Grass,Poison,Chlorophyll,Lv. 21
+71,Victreebel,Grass,Poison,Chlorophyll,Leaf Stone
+72,Tentacool,Water,Poison,Clear Body,
+73,Tentacruel,Water,Poison,Clear Body,Lv. 30
+74,Geodude,Rock,Ground,Rock Head,
+75,Graveler,Rock,Ground,Rock Head,Lv. 25
+76,Golem,Rock,Ground,Rock Head,Trade
+77,Ponyta,Fire,,Run Away,
+78,Rapidash,Fire,,Run Away,Lv. 40
+79,Slowpoke,Water,Psychic,Oblivious,
+80,Slowbro,Water,Psychic,Oblivious,Lv. 37
+81,Magnemite,Electric,Steel,Magnet Pull,
+82,Magneton,Electric,Steel,Magnet Pull,Lv. 30
+83,Farfetch'd,Normal,Flying,Keen Eye,N
+84,Doduo,Normal,Flying,Run Away,
+85,Dodrio,Normal,Flying,Run Away,Lv. 31
+86,Seel,Water,,Thick Fat,
+87,Dewgong,Water,Ice,Thick Fat,Lv. 34
+88,Grimer,Poison,,Stench,
+89,Muk,Poison,,Stench,Lv. 38
+90,Shellder,Water,,Shell Armor,
+91,Cloyster,Water,Ice,Shell Armor,Water Stone
+92,Gastly,Ghost,Poison,Levitate,
+93,Haunter,Ghost,Poison,Levitate,Lv. 25
+94,Gengar,Ghost,Poison,Levitate,Trade
+95,Onix,Rock,Ground,Rock Head,
+96,Drowzee,Psychic,,Insomnia,
+97,Hypno,Psychic,,Insomnia,Lv. 26
+98,Krabby,Water,,Hyper Cutter,
+99,Kingler,Water,,Hyper Cutter,Lv. 28
+100,Voltorb,Electric,,Soundproof,
+101,Electrode,Electric,,Soundproof,Lv. 30
+102,Exeggcute,Grass,Psychic,Chlorophyll,
+103,Exeggutor,Grass,Psychic,Chlorophyll,Leaf Stone
+104,Cubone,Ground,,Rock Head,
+105,Marowak,Ground,,Rock Head,Lv. 28
+106,Hitmonlee,Fighting,,Limber,Lv. 20 (Atk>Def)
+107,Hitmonchan,Fighting,,Keen Eye,Lv. 20 (Atk<Def)
+108,Lickitung,Normal,,Own Tempo,
+109,Koffing,Poison,,Levitate,
+110,Weezing,Poison,,Levitate,Lv. 35
+111,Rhyhorn,Ground,Rock,Lightningrod,
+112,Rhydon,Ground,Rock,Lightningrod,Lv. 42
+113,Chansey,Normal,,Natural Cure,Morn/Day Fr. h/ Oval Stone
+114,Tangela,Grass,,Chlorophyll,
+115,Kangaskhan,Normal,,Early Bird,N
+116,Horsea,Water,,Swift Swim,
+117,Seadra,Water,,Poison Point,Lv. 32
+118,Goldeen,Water,,Swift Swim,
+119,Seaking,Water,,Swift Swim,Lv. 33
+120,Staryu,Water,,Illuminate,
+121,Starmie,Water,Psychic,Illuminate,Water Stone
+122,Mr. Mime,Psychic,Fairy,Soundproof,Level w/ Mimic
+123,Scyther,Bug,Flying,Swarm,
+124,Jynx,Ice,Psychic,Oblivious,Lv. 30
+125,Electabuzz,Electric,,Static,Lv. 30
+126,Magmar,Fire,,Flame Body,Lv. 30
+127,Pinsir,Bug,,Hyper Cutter,N
+128,Tauros,Normal,,Intimidate,N
+129,Magikarp,Water,,Swift Swim,
+130,Gyarados,Water,Flying,Intimidate,Lv. 20
+131,Lapras,Water,Ice,Water Absorb,N
+132,Ditto,Normal,,Limber,N
+133,Eevee,Normal,,Run Away,
+134,Vaporeon,Water,,Water Absorb,Water Stone
+135,Jolteon,Electric,,Volt Absorb,Thunderstone
+136,Flareon,Fire,,Flash Fire,Fire Stone
+137,Porygon,Normal,,Trace,
+138,Omanyte,Rock,Water,Swift Swim,
+139,Omastar,Rock,Water,Swift Swim,Lv. 40
+140,Kabuto,Rock,Water,Swift Swim,
+141,Kabutops,Rock,Water,Swift Swim,Lv. 40
+142,Aerodactyl,Rock,Flying,Rock Head,N
+143,Snorlax,Normal,,Immunity,Friendship
+144,Articuno,Ice,Flying,Pressure,N
+145,Zapdos,Electric,Flying,Pressure,N
+146,Moltres,Fire,Flying,Pressure,N
+147,Dratini,Dragon,,Shed Skin,
+148,Dragonair,Dragon,,Shed Skin,Lv. 30
+149,Dragonite,Dragon,Flying,Inner Focus,Lv. 55
+150,Mewtwo,Psychic,,Pressure,N
+151,Mew,Psychic,,Synchronize,N
+152,Chikorita,Grass,,Overgrow,
+153,Bayleef,Grass,,Overgrow,Lv. 16
+154,Meganium,Grass,,Overgrow,Lv. 32
+155,Cyndaquil,Fire,,Blaze,
+156,Quilava,Fire,,Blaze,Lv. 14
+157,Typhlosion,Fire,,Blaze,Lv. 36
+158,Totodile,Water,,Torrent,
+159,Croconaw,Water,,Torrent,Lv. 18
+160,Feraligatr,Water,,Torrent,Lv. 30
+161,Sentret,Normal,,Run Away,
+162,Furret,Normal,,Run Away,Lv. 15
+163,Hoothoot,Normal,Flying,Insomnia,
+164,Noctowl,Normal,Flying,Insomnia,Lv. 20
+165,Ledyba,Bug,Flying,Swarm,
+166,Ledian,Bug,Flying,Swarm,Lv. 18
+167,Spinarak,Bug,Poison,Swarm,
+168,Ariados,Bug,Poison,Swarm,Lv. 22
+169,Crobat,Poison,Flying,Inner Focus,Friendship
+170,Chinchou,Water,Electric,Volt Absorb,
+171,Lanturn,Water,Electric,Volt Absorb,Lv. 27
+172,Pichu,Electric,,Static,
+173,Cleffa,Fairy,,Cute Charm,
+174,Igglybuff,Normal,Fairy,Cute Charm,
+175,Togepi,Fairy,,Hustle,
+176,Togetic,Fairy,Flying,Hustle,Friendship
+177,Natu,Psychic,Flying,Synchronize,
+178,Xatu,Psychic,Flying,Synchronize,Lv. 25
+179,Mareep,Electric,,Static,
+180,Flaaffy,Electric,,Static,Lv. 15
+181,Ampharos,Electric,,Static,Lv. 30
+182,Bellossom,Grass,,Chlorophyll,Sun Stone
+183,Marill,Water,Fairy,Thick Fat,Friendship
+184,Azumarill,Water,Fairy,Thick Fat,Lv. 18
+185,Sudowoodo,Rock,,Sturdy,Level w/ Mimic
+186,Politoed,Water,,Water Absorb,Trade h/ Kings Rock
+187,Hoppip,Grass,Flying,Chlorophyll,
+188,Skiploom,Grass,Flying,Chlorophyll,Lv. 18
+189,Jumpluff,Grass,Flying,Chlorophyll,Lv. 27
+190,Aipom,Normal,,Run Away,
+191,Sunkern,Grass,,Chlorophyll,
+192,Sunflora,Grass,,Chlorophyll,Sun Stone
+193,Yanma,Bug,Flying,Speed Boost,
+194,Wooper,Water,Ground,Damp,
+195,Quagsire,Water,Ground,Damp,Lv. 20
+196,Espeon,Psychic,,Synchronize,Morn/Day Friendship
+197,Umbreon,Dark,,Synchronize,Nite Friendship
+198,Murkrow,Dark,Flying,Insomnia,
+199,Slowking,Water,Psychic,Oblivious,Trade h/ Kings Rock
+200,Misdreavus,Ghost,,Levitate,
+201,Unown,Psychic,,Levitate,N
+202,Wobbuffet,Psychic,,Shadow Tag,Lv. 15
+203,Girafarig,Normal,Psychic,Inner Focus,N
+204,Pineco,Bug,,Sturdy,
+205,Forretress,Bug,Steel,Sturdy,Lv. 31
+206,Dunsparce,Normal,,Serene Grace,N
+207,Gligar,Ground,Flying,Hyper Cutter,
+208,Steelix,Steel,Ground,Rock Head,Trade h/ Metal Coat
+209,Snubbull,Fairy,,Intimidate,
+210,Granbull,Fairy,,Intimidate,Lv. 23
+211,Qwilfish,Water,Poison,Poison Point,N
+212,Scizor,Bug,Steel,Swarm,Trade h/ Metal Coat
+213,Shuckle,Bug,Rock,Sturdy,N
+214,Heracross,Bug,Fighting,Swarm,N
+215,Sneasel,Dark,Ice,Inner Focus,
+216,Teddiursa,Normal,,Pickup,
+217,Ursaring,Normal,,Guts,Lv. 30
+218,Slugma,Fire,,Magma Armor,
+219,Magcargo,Fire,Rock,Magma Armor,Lv. 38
+220,Swinub,Ice,Ground,Oblivious,
+221,Piloswine,Ice,Ground,Oblivious,Lv. 33
+222,Corsola,Water,Rock,Hustle,N
+223,Remoraid,Water,,Hustle,
+224,Octillery,Water,,Suction Cups,Lv. 25
+225,Delibird,Ice,Flying,Vital Spirit,N
+226,Mantine,Water,Flying,Swift Swim,Level t/ Remoraid
+227,Skarmory,Steel,Flying,Keen Eye,N
+228,Houndour,Dark,Fire,Early Bird,
+229,Houndoom,Dark,Fire,Early Bird,Lv. 24
+230,Kingdra,Water,Dragon,Swift Swim,Trade h/ Dragon Scale
+231,Phanpy,Ground,,Pickup,
+232,Donphan,Ground,,Sturdy,Lv. 25
+233,Porygon2,Normal,,Trace,Trade w/ Up-Grade
+234,Stantler,Normal,,Intimidate,N
+235,Smeargle,Normal,,Own Tempo,N
+236,Tyrogue,Fighting,,Guts,
+237,Hitmontop,Fighting,,Intimidate,Lv. 20 (Atk=Def)
+238,Smoochum,Ice,Psychic,Oblivious,
+239,Elekid,Electric,,Static,
+240,Magby,Fire,,Flame Body,
+241,Miltank,Normal,,Thick Fat,N
+242,Blissey,Normal,,Natural Cure,Friendship
+243,Raikou,Electric,,Pressure,N
+244,Entei,Fire,,Pressure,N
+245,Suicune,Water,,Pressure,N
+246,Larvitar,Rock,Ground,Guts,
+247,Pupitar,Rock,Ground,Shed Skin,Lv. 30
+248,Tyranitar,Rock,Dark,Sand Stream,Lv. 55
+249,Lugia,Psychic,Flying,Pressure,N
+250,Ho-oh,Fire,Flying,Pressure,N
+251,Celebi,Psychic,Grass,Natural Cure,N
+252,Treecko,Grass,,Overgrow,
+253,Grovyle,Grass,,Overgrow,Lv. 16
+254,Sceptile,Grass,,Overgrow,Lv. 36
+255,Torchic,Fire,,Blaze,
+256,Combusken,Fire,Fighting,Blaze,Lv. 16
+257,Blaziken,Fire,Fighting,Blaze,Lv. 36
+258,Mudkip,Water,,Torrent,
+259,Marshtomp,Water,Ground,Torrent,Lv. 16
+260,Swampert,Water,Ground,Torrent,Lv. 36
+261,Poochyena,Dark,,Run Away,
+262,Mightyena,Dark,,Intimidate,Lv. 18
+263,Zigzagoon,Normal,,Pickup,
+264,Linoone,Normal,,Pickup,Lv. 20
+265,Wurmple,Bug,,Shield Dust,
+266,Silcoon,Bug,,Shed Skin,Lv. 7
+267,Beautifly,Bug,Flying,Swarm,Lv. 10
+268,Cascoon,Bug,,Shed Skin,Lv. 7
+269,Dustox,Bug,Poison,Shield Dust,Lv. 10
+270,Lotad,Water,Grass,Swift Swim,
+271,Lombre,Water,Grass,Swift Swim,Lv. 14
+272,Ludicolo,Water,Grass,Swift Swim,Water Stone
+273,Seedot,Grass,,Chlorophyll,
+274,Nuzleaf,Grass,Dark,Chlorophyll,Lv. 14
+275,Shiftry,Grass,Dark,Chlorophyll,Leaf Stone
+276,Taillow,Normal,Flying,Guts,
+277,Swellow,Normal,Flying,Guts,Lv. 22
+278,Wingull,Water,Flying,Keen Eye,
+279,Pelipper,Water,Flying,Keen Eye,Lv. 25
+280,Ralts,Psychic,Fairy,Synchronize,
+281,Kirlia,Psychic,Fairy,Synchronize,Lv. 20
+282,Gardevoir,Psychic,Fairy,Synchronize,Lv. 30
+283,Surskit,Bug,Water,Swift Swim,
+284,Masquerain,Bug,Flying,Intimidate,Lv. 22
+285,Shroomish,Grass,,Effect Spore,
+286,Breloom,Grass,Fighting,Effect Spore,Lv. 23
+287,Slakoth,Normal,,Truant,
+288,Vigoroth,Normal,,Vital Spirit,Lv. 18
+289,Slaking,Normal,,Truant,Lv. 36
+290,Nincada,Bug,Ground,Compoundeyes,
+291,Ninjask,Bug,Flying,Speed Boost,Lv. 20
+292,Shedinja,Bug,Ghost,Wonder Guard,Lv. 20 t/ Empty Space
+293,Whismur,Normal,,Soundproof,
+294,Loudred,Normal,,Soundproof,Lv. 20
+295,Exploud,Normal,,Soundproof,Lv. 40
+296,Makuhita,Fighting,,Thick Fat,
+297,Hariyama,Fighting,,Thick Fat,Lv. 24
+298,Azurill,Normal,Fairy,Thick Fat,
+299,Nosepass,Rock,,Sturdy,
+300,Skitty,Normal,,Cute Charm,
+301,Delcatty,Normal,,Cute Charm,Moon Stone
+302,Sableye,Dark,Ghost,Keen Eye,N
+303,Mawile,Steel,Fairy,Hyper Cutter,N
+304,Aron,Steel,Rock,Sturdy,
+305,Lairon,Steel,Rock,Sturdy,Lv. 32
+306,Aggron,Steel,Rock,Sturdy,Lv. 42
+307,Meditite,Fighting,Psychic,Pure Power,
+308,Medicham,Fighting,Psychic,Pure Power,Lv. 37
+309,Electrike,Electric,,Static,
+310,Manectric,Electric,,Static,Lv. 26
+311,Plusle,Electric,,Plus,N
+312,Minun,Electric,,Minus,N
+313,Volbeat,Bug,,Illuminate,N
+314,Illumise,Bug,,Oblivious,N
+315,Roselia,Grass,Poison,Natural Cure,Morn/Day Friendship
+316,Gulpin,Poison,,Liquid Ooze,
+317,Swalot,Poison,,Liquid Ooze,Lv. 26
+318,Carvanha,Water,Dark,Rough Skin,
+319,Sharpedo,Water,Dark,Rough Skin,Lv. 30
+320,Wailmer,Water,,Water Veil,
+321,Wailord,Water,,Water Veil,Lv. 40
+322,Numel,Fire,Ground,Oblivious,
+323,Camerupt,Fire,Ground,Magma Armor,Lv. 33
+324,Torkoal,Fire,,White Smoke,N
+325,Spoink,Psychic,,Thick Fat,
+326,Grumpig,Psychic,,Thick Fat,Lv. 32
+327,Spinda,Normal,,Own Tempo,N
+328,Trapinch,Ground,,Hyper Cutter,
+329,Vibrava,Ground,Dragon,Levitate,Lv. 35
+330,Flygon,Ground,Dragon,Levitate,Lv. 45
+331,Cacnea,Grass,,Sand Veil,
+332,Cacturne,Grass,Dark,Sand Veil,Lv. 32
+333,Swablu,Normal,Flying,Natural Cure,
+334,Altaria,Dragon,Flying,Natural Cure,Lv. 35
+335,Zangoose,Normal,,Immunity,N
+336,Seviper,Poison,,Shed Skin,N
+337,Lunatone,Rock,Psychic,Levitate,N
+338,Solrock,Rock,Psychic,Levitate,N
+339,Barboach,Water,Ground,Oblivious,
+340,Whiscash,Water,Ground,Oblivious,Lv. 30
+341,Corphish,Water,,Hyper Cutter,
+342,Crawdaunt,Water,Dark,Hyper Cutter,Lv. 30
+343,Baltoy,Ground,Psychic,Levitate,
+344,Claydol,Ground,Psychic,Levitate,Lv. 36
+345,Lileep,Rock,Grass,Suction Cups,
+346,Cradily,Rock,Grass,Suction Cups,Lv. 40
+347,Anorith,Rock,Bug,Battle Armor,
+348,Armaldo,Rock,Bug,Battle Armor,Lv. 40
+349,Feebas,Water,,Swift Swim,
+350,Milotic,Water,,Marvel Scale,Level w/ Max Beauty
+351,Castform,Normal,,Forecast,N
+352,Kecleon,Normal,,Color Change,N
+353,Shuppet,Ghost,,Insomnia,
+354,Banette,Ghost,,Insomnia,Lv. 37
+355,Duskull,Ghost,,Levitate,
+356,Dusclops,Ghost,,Pressure,Lv. 37
+357,Tropius,Grass,Flying,Chlorophyll,N
+358,Chimecho,Psychic,,Levitate,Nite Friendship
+359,Absol,Dark,,Pressure,N
+360,Wynaut,Psychic,,Shadow Tag,
+361,Snorunt,Ice,,Inner Focus,
+362,Glalie,Ice,,Inner Focus,Lv. 42
+363,Spheal,Ice,Water,Thick Fat,
+364,Sealeo,Ice,Water,Thick Fat,Lv. 32
+365,Walrein,Ice,Water,Thick Fat,Lv. 44
+366,Clamperl,Water,,Shell Armor,
+367,Huntail,Water,,Swift Swim,Trade w/ Deepseatooth
+368,Gorebyss,Water,,Swift Swim,Trade w/ Deepseascale
+369,Relicanth,Water,Rock,Swift Swim,N
+370,Luvdisc,Water,,Swift Swim,N
+371,Bagon,Dragon,,Rock Head,
+372,Shelgon,Dragon,,Rock Head,Lv. 30
+373,Salamence,Dragon,Flying,Intimidate,Lv. 50
+374,Beldum,Steel,Psychic,Clear Body,
+375,Metang,Steel,Psychic,Clear Body,Lv. 20
+376,Metagross,Steel,Psychic,Clear Body,Lv. 45
+377,Regirock,Rock,,Clear Body,N
+378,Regice,Ice,,Clear Body,N
+379,Registeel,Steel,,Clear Body,N
+380,Latias,Dragon,Psychic,Levitate,N
+381,Latios,Dragon,Psychic,Levitate,N
+382,Kyogre,Water,,Drizzle,N
+383,Groudon,Ground,,Drought,N
+384,Rayquaza,Dragon,Flying,Air Lock,N
+385,Jirachi,Steel,Psychic,Serene Grace,N
+386,Deoxys (N),Psychic,,Pressure,N
+386.1,Deoxys (A),Psychic,,Pressure,N
+386.2,Deoxys (D),Psychic,,Pressure,N
+386.3,Deoxys (S),Psychic,,Pressure,N
+387,Turtwig,Grass,,Overgrow,
+388,Grotle,Grass,,Overgrow,Lv. 18
+389,Torterra,Grass,Ground,Overgrow,Lv. 32
+390,Chimchar,Fire,,Blaze,
+391,Monferno,Fire,Fighting,Blaze,Lv. 14
+392,Infernape,Fire,Fighting,Blaze,Lv. 36
+393,Piplup,Water,,Torrent,
+394,Prinplup,Water,,Torrent,Lv. 16
+395,Empoleon,Water,Steel,Torrent,Lv. 36
+396,Starly,Normal,Flying,Keen Eye,
+397,Staravia,Normal,Flying,Intimidate,Lv. 14
+398,Staraptor,Normal,Flying,Intimidate,Lv. 34
+399,Bidoof,Normal,,Simple,
+400,Bibarel,Normal,Water,Simple,Lv. 15
+401,Kricketot,Bug,,Shed Skin,
+402,Kricketune,Bug,,Swarm,Lv. 10
+403,Shinx,Electric,,Rivalry,
+404,Luxio,Electric,,Rivalry,Lv. 15
+405,Luxray,Electric,,Rivalry,Lv. 30
+406,Budew,Grass,Poison,Natural Cure,
+407,Roserade,Grass,Poison,Natural Cure,Shiny Stone
+408,Cranidos,Rock,,Mold Breaker,
+409,Rampardos,Rock,,Mold Breaker,Lv. 30
+410,Shieldon,Rock,Steel,Sturdy,
+411,Bastiodon,Rock,Steel,Sturdy,Lv. 30
+412,Burmy,Bug,,Shed Skin,
+413,Wormadam (P),Bug,Grass,Anticipate,Lv. 20F Plant Cloak
+413.1,Wormadam (S),Bug,Ground,Anticipate,Lv. 20F Sand Cloak
+413.2,Wormadam (T),Bug,Steel,Anticipate,Lv. 20F Trash Cloak
+414,Mothim,Bug,Flying,Swarm,Lv. 20M
+415,Combee,Bug,Flying,Honey Gather,
+416,Vespiquen,Bug,Flying,Pressure,Lv. 21F
+417,Pachirisu,Electric,,Run Away,N
+418,Buizel,Water,,Swift Swim,
+419,Floatzel,Water,,Swift Swim,Lv. 26
+420,Cherubi,Grass,,Chlorophyll,
+421,Cherrim,Grass,,Flower Gift,Lv. 25
+422,Shellos,Water,,Sticky Hold,
+423,Gastrodon,Water,Ground,Sticky Hold,Lv. 30
+424,Ambipom,Normal,,Technician,Level w/ Double Hit
+425,Drifloon,Ghost,Flying,Aftermath,
+426,Drifblim,Ghost,Flying,Aftermath,Lv. 28
+427,Buneary,Normal,,Run Away,
+428,Lopunny,Normal,,Cute Charm,Friendship
+429,Mismagius,Ghost,,Levitate,Dusk Stone
+430,Honchkrow,Dark,Flying,Insomnia,Dusk Stone
+431,Glameow,Normal,,Limber,
+432,Purugly,Normal,,Thick Fat,Lv. 38
+433,Chingling,Psychic,,Levitate,
+434,Stunky,Poison,Dark,Stench,
+435,Skuntank,Poison,Dark,Stench,Lv. 34
+436,Bronzor,Steel,Psychic,Levitate,
+437,Bronzong,Steel,Psychic,Levitate,Lv. 33
+438,Bonsly,Rock,,Sturdy,
+439,Mime Jr.,Psychic,Fairy,Soundproof,
+440,Happiny,Normal,,Natural Cure,
+441,Chatot,Normal,Flying,Keen Eye,N
+442,Spiritomb,Ghost,Dark,Pressure,N
+443,Gible,Dragon,Ground,Sand Veil,
+444,Gabite,Dragon,Ground,Sand Veil,Lv. 24
+445,Garchomp,Dragon,Ground,Sand Veil,Lv. 48
+446,Munchlax,Normal,,Pickup,Breed Snorlax holding Lax Incense
+447,Riolu,Fighting,,Steadfast,
+448,Lucario,Fighting,Steel,Steadfast,Morn/Day Friendship
+449,Hippopotas,Ground,,Sand Stream,
+450,Hippowdon,Ground,,Sand Stream,Lv. 34
+451,Skorupi,Poison,Bug,Battle Armor,
+452,Drapion,Poison,Dark,Battle Armor,Lv. 40
+453,Croagunk,Poison,Fighting,Anticipate,
+454,Toxicroak,Poison,Fighting,Anticipate,Lv. 37
+455,Carnivine,Grass,,Levitate,N
+456,Finneon,Water,,Swift Swim,
+457,Lumineon,Water,,Swift Swim,Lv. 31
+458,Mantyke,Water,Flying,Swift Swim,
+459,Snover,Ice,Grass,Snow Warning,
+460,Abomasnow,Ice,Grass,Snow Warning,Lv. 40
+461,Weavile,Dark,Ice,Pressure,Nite Level h/ Razor Claw
+462,Magnezone,Electric,Steel,Magnet Pull,Level a/ Mt. Coronet
+463,Lickilicky,Normal,,Own Tempo,Level w/ Rollout
+464,Rhyperior,Ground,Rock,Lightningrod,Trade h/ Protector
+465,Tangrowth,Grass,,Chlorophyll,Level w/ Ancientpower
+466,Electivire,Electric,,Motor Drive,Trade h/ Electrizer
+467,Magmortar,Fire,,Flame Body,Trade h/ Magmarizer
+468,Togekiss,Fairy,Flying,Hustle,Shiny Stone
+469,Yanmega,Bug,Flying,Speed Boost,Level w/ Ancientpower
+470,Leafeon,Grass,,Leaf Guard,Level a/ Moss Rock
+471,Glaceon,Ice,,Snow Cloak,Level a/ Ice Rock
+472,Gliscor,Ground,Flying,Hyper Cutter,Nite Level h/ Razor Fang
+473,Mamoswine,Ice,Ground,Oblivious,Level w/ Ancientpower
+474,Porygon-Z,Normal,,Adaptability,Trade w/ Dubious Disc
+475,Gallade,Psychic,Fighting,Steadfast,Dawn StoneM
+476,Probopass,Rock,Steel,Sturdy,Level a/ Mt. Coronet
+477,Dusknoir,Ghost,,Pressure,Trade w/ Reaper Cloth
+478,Froslass,Ice,Ghost,Snow Cloak,Dawn StoneF
+479,Rotom,Electric,Ghost,Levitate,N
+479.1,Rotom (Heat),Electric,Fire,Levitate,N
+479.2,Rotom (Wash),Electric,Water,Levitate,N
+479.3,Rotom (Frost),Electric,Ice,Levitate,N
+479.4,Rotom (Spin),Electric,Flying,Levitate,N
+479.5,Rotom (Cut),Electric,Grass,Levitate,N
+480,Uxie,Psychic,,Levitate,N
+481,Mesprit,Psychic,,Levitate,N
+482,Azelf,Psychic,,Levitate,N
+483,Dialga,Steel,Dragon,Pressure,N
+484,Palkia,Water,Dragon,Pressure,N
+485,Heatran,Fire,Steel,Flash Fire,N
+486,Regigigas,Normal,,Slow Start,N
+487,Giratina,Ghost,Dragon,Pressure,N
+487.1,Giratina (O),Ghost,Dragon,Levitate,N
+488,Cresselia,Psychic,,Levitate,N
+489,Phione,Water,,Hydration,Breed Manaphy or Phione with Ditto
+490,Manaphy,Water,,Hydration,N
+491,Darkrai,Dark,,Bad Dreams,N
+492,Shaymin,Grass,,Natural Cure,N
+492.1,Shaymin (S),Grass,Flying,Serene Grace,N
+493,Arceus,Normal,,Multitype,N
+494,Victini,Psychic,Fire,Victory Star,N
+495,Snivy,Grass,,Overgrow,
+496,Servine,Grass,,Overgrow,Lv. 17
+497,Serperior,Grass,,Overgrow,Lv. 36
+498,Tepig,Fire,,Blaze,
+499,Pignite,Fire,Fighting,Blaze,Lv. 17
+500,Emboar,Fire,Fighting,Blaze,Lv. 36
+501,Oshawott,Water,,Torrent,
+502,Dewott,Water,,Torrent,Lv. 17
+503,Samurott,Water,,Torrent,Lv. 36
+504,Patrat,Normal,,Run Away,
+505,Watchog,Normal,,Illuminate,Lv. 20
+506,Lillipup,Normal,,Vital Spirit,
+507,Herdier,Normal,,Intimidate,Lv. 16
+508,Stoutland,Normal,,Intimidate,Lv. 32
+509,Purrloin,Dark,,Limber,
+510,Liepard,Dark,,Limber,Lv. 20
+511,Pansage,Grass,,Gluttony,
+512,Simisage,Grass,,Gluttony,Leaf Stone
+513,Pansear,Fire,,Gluttony,
+514,Simisear,Fire,,Gluttony,Fire Stone
+515,Panpour,Water,,Gluttony,
+516,Simipour,Water,,Gluttony,Water Stone
+517,Munna,Psychic,,Forewarn,
+518,Musharna,Psychic,,Forewarn,Moon Stone
+519,Pidove,Normal,Flying,Big Pecks,
+520,Tranquill,Normal,Flying,Big Pecks,Lv. 21
+521,Unfezant,Normal,Flying,Big Pecks,Lv. 32
+522,Blitzle,Electric,,Lightningrod,
+523,Zebstrika,Electric,,Lightningrod,Lv. 27
+524,Roggenrola,Rock,,Sturdy,
+525,Boldore,Rock,,Sturdy,Lv. 25
+526,Gigalith,Rock,,Sturdy,Trade
+527,Woobat,Psychic,Flying,Unaware,
+528,Swoobat,Psychic,Flying,Unaware,Friendship
+529,Drilbur,Ground,,Sand Rush,
+530,Excadrill,Ground,Steel,Sand Rush,Lv. 31
+531,Audino,Normal,,Healer,N
+532,Timburr,Fighting,,Guts,
+533,Gurdurr,Fighting,,Guts,Lv. 25
+534,Conkeldurr,Fighting,,Guts,Trade
+535,Tympole,Water,,Swift Swim,
+536,Palpitoad,Water,Ground,Swift Swim,Lv. 25
+537,Seismitoad,Water,Ground,Swift Swim,Lv. 36
+538,Throh,Fighting,,Guts,
+539,Sawk,Fighting,,Sturdy,
+540,Sewaddle,Bug,Grass,Swarm,
+541,Swadloon,Bug,Grass,Leaf Guard,Lv. 20
+542,Leavanny,Bug,Grass,Swarm,Friendship
+543,Venipede,Bug,Poison,Poison Point,
+544,Whirlipede,Bug,Poison,Poison Point,Lv. 22
+545,Scolipede,Bug,Poison,Poison Point,Lv. 30
+546,Cottonee,Grass,Fairy,Prankster,
+547,Whimsicott,Grass,Fairy,Prankster,Sun Stone
+548,Petilil,Grass,,Chlorophyll,
+549,Lilligant,Grass,,Chlorophyll,Sun Stone
+550,Basculin,Water,,Reckless,N
+551,Sandile,Ground,Dark,Intimidate,
+552,Krokorok,Ground,Dark,Intimidate,Lv. 29
+553,Krookodile,Ground,Dark,Intimidate,Lv. 40
+554,Darumaka,Fire,,Hustle,
+555,Darmanitan,Fire,,Sheer Force,Lv. 35
+555.1,Darmanitan (Z),Fire,Psychic,,
+556,Maractus,Grass,,Water Absorb,N
+557,Dwebble,Bug,Rock,Sturdy,
+558,Crustle,Bug,Rock,Sturdy,Lv. 34
+559,Scraggy,Dark,Fighting,Shed Skin,
+560,Scrafty,Dark,Fighting,Shed Skin,
+561,Sigilyph,Psychic,Flying,Wonder Skin,
+562,Yamask,Ghost,,Mummy,
+563,Cofagrigus,Ghost,,Mummy,Lv. 34
+564,Tirtouga,Water,Rock,Solid Rock,
+565,Carracosta,Water,Rock,Solid Rock,Lv. 37
+566,Archen,Rock,Flying,Defeatist,
+567,Archeops,Rock,Flying,Defeatist,Lv. 37
+568,Trubbish,Poison,,Stench,
+569,Garbodor,Poison,,Stench,Lv. 36
+570,Zorua,Dark,,Illusion,
+571,Zoroark,Dark,,Illusion,Lv. 30
+572,Minccino,Normal,,Cute Charm,
+573,Cinccino,Normal,,Cute Charm,Shiny Stone
+574,Gothita,Psychic,,Frisk,
+575,Gothorita,Psychic,,Frisk,Lv. 32
+576,Gothitelle,Psychic,,Frisk,Lv. 41
+577,Solosis,Psychic,,Overcoat,
+578,Duosion,Psychic,,Overcoat,Lv. 32
+579,Reuniclus,Psychic,,Overcoat,Lv. 41
+580,Ducklett,Water,Flying,Keen Eye,
+581,Swanna,Water,Flying,Keen Eye,Lv. 35
+582,Vanillite,Ice,,Ice Body,
+583,Vanillish,Ice,,Ice Body,Lv. 35
+584,Vanilluxe,Ice,,Ice Body,Lv. 47
+585,Deerling,Normal,Grass,Chlorophyll,
+586,Sawsbuck,Normal,Grass,Chlorophyll,Lv. 34
+587,Emolga,Electric,Flying,Static,
+588,Karrablast,Bug,,Swarm,
+589,Escavalier,Bug,Steel,Swarm,Trade w/ Shelmet
+590,Foongus,Grass,Poison,Effect Spore,
+591,Amoonguss,Grass,Poison,Effect Spore,Lv. 39
+592,Frillish,Water,Ghost,Water Absorb,
+593,Jellicent,Water,Ghost,Water Absorb,Lv. 40
+594,Alomomola,Water,,Healer,N
+595,Joltik,Bug,Electric,Compoundeyes,
+596,Galvantula,Bug,Electric,Compoundeyes,Lv. 36
+597,Ferroseed,Grass,Steel,Iron Barbs,
+598,Ferrothorn,Grass,Steel,Iron Barbs,Lv. 40
+599,Klink,Steel,,Plus,
+600,Klang,Steel,,Plus,Lv. 38
+601,Klinklang,Steel,,Plus,Lv. 49
+602,Tynamo,Electric,,Levitate,
+603,Eelektrik,Electric,,Levitate,Lv. 39
+604,Eelektross,Electric,,Levitate,Thunderstone
+605,Elgyem,Psychic,,Telepathy,
+606,Beheeyem,Psychic,,Telepathy,Lv. 42
+607,Litwick,Ghost,Fire,Flash Fire,
+608,Lampent,Ghost,Fire,Flash Fire,Lv. 41
+609,Chandelure,Ghost,Fire,Flash Fire,Dusk Stone
+610,Axew,Dragon,,Rivalry,
+611,Fraxure,Dragon,,Rivalry,Lv. 38
+612,Haxorus,Dragon,,Rivalry,Lv. 48
+613,Cubchoo,Ice,,Snow Cloak,
+614,Beartic,Ice,,Snow Cloak,Lv. 37
+615,Cryogonal,Ice,,Levitate,N
+616,Shelmet,Bug,,Hydration,
+617,Accelgor,Bug,,Hydration,Trade w/ Karrablast
+618,Stunfisk,Ground,Electric,Static,N
+619,Mienfoo,Fighting,,Inner Focus,
+620,Mienshao,Fighting,,Inner Focus,Lv. 50
+621,Druddigon,Dragon,,Rough Skin,N
+622,Golett,Ground,Ghost,Iron Fist,
+623,Golurk,Ground,Ghost,Iron Fist,Lv. 43
+624,Pawniard,Dark,Steel,Defiant,
+625,Bisharp,Dark,Steel,Defiant,Lv. 52
+626,Bouffalant,Normal,,Reckless,N
+627,Rufflet,Normal,Flying,Keen Eye,
+628,Braviary,Normal,Flying,Keen Eye,Lv. 54
+629,Vullaby,Dark,Flying,Big Pecks,
+630,Mandibuzz,Dark,Flying,Big Pecks,Lv. 54
+631,Heatmor,Fire,,Gluttony,N
+632,Durant,Bug,Steel,Swarm,N
+633,Deino,Dark,Dragon,Hustle,
+634,Zweilous,Dark,Dragon,Hustle,Lv. 50
+635,Hydreigon,Dark,Dragon,Levitate,Lv. 64
+636,Larvesta,Bug,Fire,Flame Body,
+637,Volcarona,Bug,Fire,Flame Body,Lv. 59
+638,Cobalion,Steel,Fighting,Justified,N
+639,Terrakion,Rock,Fighting,Justified,N
+640,Virizion,Grass,Fighting,Justified,N
+641,Tornadus,Flying,,Prankster,N
+642,Thundurus,Electric,Flying,Prankster,N
+643,Reshiram,Dragon,Fire,Turboblaze,N
+644,Zekrom,Dragon,Electric,Teravolt,N
+645,Landorus,Ground,Flying,Sand Force,N
+646,Kyurem,Dragon,Ice,Pressure,N
+647,Keldeo,Water,Fighting,Justified,N
+648,Meloetta (A),Normal,Psychic,Serene Grace,N
+648.1,Meloetta (P),Normal,Fighting,Serene Grace,N
+649,Genesect,Bug,Steel,Download,N
+650,Chespin,Grass,,Overgrow,
+651,Quilladin,Grass,,Overgrow,Lv. 16
+652,Chesnaught,Grass,Fighting,Overgrow,Lv. 36
+653,Fennekin,Fire,,Blaze,
+654,Braixen,Fire,,Blaze,Lv. 16
+655,Delphox,Fire,Psychic,Blaze,Lv. 36
+656,Froakie,Water,,Torrent,
+657,Frogadier,Water,,Torrent,Lv. 16
+658,Greninja,Water,Dark,Torrent,Lv. 36
+659,Bunnelby,Normal,,Pickup,
+660,Diggersby,Normal,Ground,Pickup,Lv. 20
+661,Fletchling,Normal,Flying,Big Pecks,
+662,Fletchinder,Fire,Flying,Flame Body,Lv. 17
+663,Talonflame,Fire,Flying,Flame Body,Lv. 35
+664,Scatterbug,Bug,,Shield Dust,
+665,Spewpa,Bug,,Shed Skin,Lv. 9
+666,Vivillon,Bug,Flying,Shield Dust,Lv. 12
+667,Litleo,Fire,Normal,Rivalry,
+668,Pyroar,Fire,Normal,Rivalry,Lv. 35
+669,FlabÃ©bÃ©,Fairy,,Flower Veil,
+670,Floette,Fairy,,Flower Veil,Lv. 19
+671,Florges,Fairy,,Flower Veil,Shiny Stone
+672,Skiddo,Grass,,Sap Sipper,
+673,Gogoat,Grass,,Sap Sipper,Lv. 32
+674,Pancham,Fighting,,Iron Fist,
+675,Pangoro,Fighting,Dark,Iron Fist,Lv. 32 \w Dark-type in party
+676,Furfrou,Normal,,Fur Coat,N
+677,Espurr,Psychic,,Keen Eye,
+678,Meowstic,Psychic,,Keen Eye,Lv. 25
+679,Honedge,Steel,Ghost,No Guard,
+680,Doublade,Steel,Ghost,No Guard,Lv. 35
+681,Aegislash,Steel,Ghost,Stance Change,Dusk Stone
+682,Spritzee,Fairy,,Healer,
+683,Aromatisse,Fairy,,Healer,Trade holding Sachet
+684,Swirlix,Fairy,,Sweet Veil,
+685,Slurpuff,Fairy,,Sweet Veil,Trade holding Whipped Dream
+686,Inkay,Dark,Psychic,Suction Cups,
+687,Malamar,Dark,Psychic,Suction Cups,Lv. 30 while holding 3DS upside down
+688,Binacle,Rock,Water,Sniper,
+689,Barbaracle,Rock,Water,Sniper,Lv. 39
+690,Skrelp,Poison,Water,Poison Point,
+691,Dragalge,Poison,Dragon,Poison Point,Lv. 48
+692,Clauncher,Water,,Mega Launcher,
+693,Clawitzer,Water,,Mega Launcher,Lv. 37
+694,Helioptile,Electric,Normal,Dry Skin,
+695,Heliolisk,Electric,Normal,Dry Skin,Sun Stone
+696,Tyrunt,Rock,Dragon,Strong Jaw,
+697,Tyrantrum,Rock,Dragon,Strong Jaw,Lv. 39 During daytime
+698,Amaura,Rock,Ice,Refrigerate,
+699,Aurorus,Rock,Ice,Refrigerate,Lv. 39 During nighttime
+700,Sylveon,Fairy,,Cute Charm,
+701,Hawlucha,Fighting,Flying,Unburden,N
+702,Dedenne,Electric,Fairy,Cheek Pouch,N
+703,Carbink,Rock,Fairy,Clear Body,N
+704,Goomy,Dragon,,Sap Sipper,
+705,Sliggoo,Dragon,,Sap Sipper,Lv. 40
+706,Goodra,Dragon,,Sap Sipper,Lv. 50 in the rain
+707,Klefki,Steel,Fairy,Prankster,N
+708,Phantump,Ghost,Grass,Natural Cure,
+709,Trevenant,Ghost,Grass,Natural Cure,Trade
+710,Pumpkaboo,Ghost,Grass,Pickup,
+711,Gourgeist,Ghost,Grass,Pickup,Trade
+712,Bergmite,Ice,,Own Tempo,
+713,Avalugg,Ice,,Own Tempo,Lv. 37
+714,Noibat,Flying,Dragon,Frisk,
+715,Noivern,Flying,Dragon,Frisk,Lv. 48
+716,Xerneas,Fairy,,Fairy Aura,N
+717,Yveltal,Dark,Flying,Dark Aura,N
+718,Zygarde,Dragon,Ground,Aura Break,N
+719,Diancie,Rock,Fairy,Clear Body,N
+720,Hoopa (C),Psychic,Ghost,Magician,
+721,Hoopa (U),Psychic,Dark,Magician,
+721,Volcanion,Fire,Water,Water Absorb,
+722,Rowlet,Grass,Flying,Overgrow ,
+723,Dartrix,Grass,Flying,Overgrow ,
+724,Decidueye,Grass,Ghost,Overgrow ,
+725,Litten,Fire,,Blaze ,
+726,Torracat,Fire,,Blaze ,
+727,Incineroar,Fire,Dark,Blaze ,
+728,Popplio,Water,,Torrent ,
+729,Brionne,Water,,Torrent ,
+730,Primarina,Water,Fairy,Torrent ,
+731,Pikipek,Normal,Flying,Keen Eye ,
+732,Trumbeak,Normal,Flying,Keen Eye ,
+733,Toucannon,Normal,Flying,Keen Eye ,
+734,Yungoos,Normal,,Stakeout ,
+735,Gumshoos,Normal,,Stakeout ,
+736,Grubbin,Bug,,Swarm,
+737,Charjabug,Bug,Electric,Battery,
+738,Vikavolt,Bug,Electric,Levitate,
+739,Crabrawler,Fighting,,Hyper Cutter ,
+740,Crabominable,Fighting,Ice,Hyper Cutter ,
+741,Oricorio,Fire,Flying,Dancer,
+742,Cutiefly,Bug,Fairy,Honey Gather ,
+743,Ribombee,Bug,Fairy,Honey Gather ,
+744,Rockruff,Rock,,Keen Eye ,
+745,Lycanroc,Rock,,Keen Eye ,
+746,Wishiwashi,Water,,Schooling,
+747,Mareanie,Poison,Water,Merciless ,
+748,Toxapex,Poison,Water,Merciless ,
+749,Mudbray,Ground,,Own Tempo,
+750,Mudsdale,Ground,,Own Tempo,
+751,Dewpider,Water,Bug,Water Bubble ,
+752,Araquanid,Water,Bug,Water Bubble ,
+753,Fomantis,Grass,,Leaf Guard ,
+754,Lurantis,Grass,,Leaf Guard ,
+755,Morelull,Grass,Fairy,Illuminate ,
+756,Shiinotic,Grass,Fairy,Illuminate ,
+757,Salandit,Poison,Fire,Corrosion ,
+758,Salazzle,Poison,Fire,Corrosion ,
+759,Stufful,Normal,Fighting,Fluffy ,
+760,Bewear,Normal,Fighting,Fluffy ,
+761,Bounsweet,Grass,,Leaf Guard ,
+762,Steenee,Grass,,Leaf Guard ,
+763,Tsareena,Grass,,Leaf Guard ,
+764,Comfey,Fairy,,Flower Veil ,
+765,Oranguru,Normal,Psychic,Inner Focus ,
+766,Passimian,Fighting,,Receiver ,
+767,Wimpod,Bug,Water,Wimp Out,
+768,Golisopod,Bug,Water,Emergency Exit,
+769,Sandygast,Ghost,Ground,Water Compaction ,
+770,Palossand,Ghost,Ground,Water Compaction ,
+771,Pyukumuku,Water,,Innards Out,
+772,Type: Null,Normal,,Battle Armor,
+773,Silvally,Normal,,RKS System,
+774,Minior,Rock,Flying,Shields Down,
+775,Komala,Normal,,Comatose,
+776,Turtonator,Fire,Dragon,Shell Armor,
+777,Togedemaru,Electric,Steel,Iron Barbs ,
+778,Mimikyu,Ghost,Fairy,Disguise,
+779,Bruxish,Water,Psychic,Dazzling ,
+780,Drampa,Normal,Dragon,Berserk ,
+781,Dhelmise,Ghost,Grass,Steelworker,
+782,Jangmo-o,Dragon,,Bulletproof ,
+783,Hakamo-o,Dragon,Fighting,Bulletproof ,
+784,Kommo-o,Dragon,Fighting,Bulletproof ,
+785,Tapu Koko,Electric,Fairy,Electric Surge ,
+786,Tapu Lele,Psychic,Fairy,Psychic Surge ,
+787,Tapu Bulu,Grass,Fairy,Grassy Surge ,
+788,Tapu Fini,Water,Fairy,Misty Surge ,
+789,Cosmog,Psychic,,Unaware,
+790,Cosmoem,Psychic,,Sturdy,
+791,Solgaleo,Psychic,Steel,Full Metal Body,
+792,Lunala,Psychic,Ghost,Shadow Shield,
+793,Nihilego,Rock,Poison,Beast Boost,
+794,Buzzwole,Bug,Fighting,Beast Boost,
+795,Pheromosa,Bug,Fighting,Beast Boost,
+796,Xurkitree,Electric,,Beast Boost,
+797,Celesteela,Steel,Flying,Beast Boost,
+798,Kartana,Grass,Steel,Beast Boost,
+799,Guzzlord,Dark,Dragon,Beast Boost,
+800,Necrozma,Psychic,,Prism Armor,
+801,Magearna,Steel,Fairy,Soul-Heart,
+802,Marshadow,Fighting,Ghost,Technician,
