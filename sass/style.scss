@@ -2,9 +2,11 @@
 @import "./Header.scss";
 @import "./PartiesList.scss";
 @import "./PartiesPage.scss";
+@import "./PartyPage.scss";
 @import "./PartyPreview.scss";
 @import "./Pokemon.scss";
 @import "./PokemonPage.scss";
+@import "./PokemonPreview.scss";
 
 body.container {
   background-color: #fff0f7;
@@ -13,11 +15,7 @@ body.container {
   width: 100%;
 }
 
-h2 {
-  margin: 0;
-}
-
-h3 {
+h1, h2, h3  {
   margin: 0;
 }
 

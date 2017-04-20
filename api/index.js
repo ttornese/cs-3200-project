@@ -56,6 +56,13 @@ router.get('/pokemon/:pokemonId', (req, res) => {
     .catch(console.error)
 });
 
+router.get('/pokemon/preview/:pokemonName', (req, res) => {
+  mdb.collection('pokemon')
+    .findOne({ name: req.params.pokemonName })
+    .then(pokemon => res.send(pokemon))
+    .catch(console.error)
+});
+
 
 router.get('/ability/:abilityName', (req, res) => {
   mdb.collection('abilities')

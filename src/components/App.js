@@ -39,7 +39,7 @@ class App extends React.Component {
       { currentPokemonId: pokemonId },
       `/pokemon/${pokemonId}`
     );
-    api.fetchPokemon(pokemonId).then(pokemon => {
+    api.fetchPokemon(pokemonId, "type").then(pokemon => {
       this.setState({
         currentPokemonId: pokemon.id,
         pokemon: {
@@ -49,6 +49,22 @@ class App extends React.Component {
       });
     });
   };
+
+  fetchParties = () => {
+    pushState(
+      { currentPokemonId: null, currentPartyId: null },
+      '/'
+    );
+
+    api.fetchParties().then(parties => {
+      this.setState({
+        currentPokemonId: null,
+        currentPartyId: null,
+        pokemon: null,
+        parties
+      });
+    });
+  }
 
   fetchParty = (partyId) => {
     pushState(
@@ -96,6 +112,7 @@ class App extends React.Component {
       return (
         <PartyPage
           onClickAddPokemon={this.addPokemonToParty.bind(this)}
+          onClickPokemon={this.fetchPokemon.bind(this)}
           party={this.currentParty()}
         />
       );
@@ -163,7 +180,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header message="Pokemon" />
+        <Header onClickTitle={this.fetchParties} />
         {this.currentContent()}
       </div>
     );

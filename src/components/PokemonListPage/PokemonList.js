@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import PokemonPreview from './PokemonPreview';
+import PokemonPreview from '../PartyPage/PokemonPreview';
 
 class PokemonList extends Component {
   static propTypes = {
@@ -15,6 +15,7 @@ class PokemonList extends Component {
           Object.keys(this.props.pokemon).map(
             pokemonId =>
               <PokemonPreview
+                fetchData={false}
                 key={pokemonId}
                 id={Number(pokemonId)}
                 onClickPokemon={this.props.onClickPokemon}

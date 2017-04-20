@@ -17,8 +17,14 @@ export const fetchPokemonList = () => {
 
 export const fetchPokemon = pokemonId => {
   return axios.get(`/api/pokemon/${pokemonId}`)
-  .then(resp => resp.data);
+    .then(resp => resp.data);
 };
+
+export const fetchPokemonPreview = pokemonName => {
+  return axios.get(`/api/pokemon/preview/${pokemonName}`)
+    .then(resp => resp.data);
+};
+
 
 export const fetchAbility = abilityName => {
   return axios.get(`/api/ability/${abilityName}`)
